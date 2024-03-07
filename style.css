@@ -1,0 +1,159 @@
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(1, 2, 8);
+}
+
+.header {
+    /*background-color: #333;*/
+    color: #fff;
+    padding: 0px 50px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+  }
+
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+
+
+  p,h2{
+    color:rgb(88, 87, 87)
+  }
+
+  .hero,.clients{
+    text-align: center;
+    font-size: 40px;
+    padding: 150px;
+  }
+  
+  .hero-section,.clients{
+    color:#fff;
+  }
+
+  .hero-more{
+    font-size: 20px;
+    color:#fff;
+  }
+
+  
+  .clients {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .my-client {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .my-client div {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .works, .about{
+    color: #fff;
+    padding-inline: 110px;
+    padding-block: 80px 120px;
+    font-size: 20px;
+    color:#fff;
+  
+  }
+  .work-cards, .about{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.item-work-card {
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgb(88, 87, 87);
+    padding: 10px;
+   
+}
+  
+  
+.about {
+    float: left;
+    width: 50%; 
+    padding-left: 100px;
+    margin-right: 10px;
+}
+
+.img-hobby {
+    width: 40%; 
+    height: 40%;
+}
+
+.fotter_title,.footer_description{
+  text-align: center;
+  color:#fff;
+}
+.footer_icons{
+  color: rgb(88, 87, 87);
+  text-align: center;
+  display: flex; 
+  justify-content:space-around;/*Спросить*/
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer_copyright{
+  text-align: center;
+  color:#fff;
+  padding-top: 20px;
+}
